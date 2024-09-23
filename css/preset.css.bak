@@ -1,0 +1,213 @@
+/*
+Theme Name: investor_insight
+Theme URI: http://themewar.com/html/investor_insight/
+Author: ThemeWar
+Author URI: http://themewar.com/
+Description: Investor Insight.
+Version: 1.0
+License:
+License URI:
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+1. Fonts Settings
+2. Basic Typography
+3. Gapping Settings
+4. Section Setup
+
+*/
+
+/*------------------------------------------------------------------------------
+/ 1. Fonts Settings
+------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+/*------------------------------------------------------------------------------
+/ 2. Basic Typography
+------------------------------------------------------------------------------*/
+body,html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #868e96;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #212529;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+a{
+    color: #212529;
+    text-decoration: none;
+    transition: all ease 300ms;
+    -moz-transition: all ease 300ms;
+    -webkit-transition: all ease 300ms;
+}
+a:hover{
+    color: #d9480f;
+    text-decoration: none;
+    outline: 0;
+}
+a:focus{
+    outline: 0;
+}
+.fnc_btn, button.fnc_btn, input[type="submit"].fnc_btn{
+    background: #212529;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+    border-radius: 3px;
+    display: inline-block;
+    border: none;
+    position: relative;
+    text-decoration: none;
+    transition: all ease 300ms;
+    -moz-transition: all ease 300ms;
+    -webkit-transition: all ease 300ms;
+    overflow: hidden;
+}
+.fnc_btn span{
+    position: relative;
+    z-index: 2;
+}
+.fnc_btn:before {
+    content: '';
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 0;
+    z-index: 2;
+    transition: width .3s cubic-bezier(.25,.8,.25,1) 0s;
+    -moz-transition: width .3s cubic-bezier(.25,.8,.25,1) 0s;
+    -webkit-transition: width .3s cubic-bezier(.25,.8,.25,1) 0s;
+    background: #d9480f;
+}
+.fnc_btn:hover:before {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+.fnc_btn.fnc_light{
+    background: #FFF;
+    color: #d9480f;
+}
+.fnc_btn.fnc_light:before{
+    background: #d9480f;
+}
+.fnc_btn.fnc_light:hover{
+    color: #FFF;
+}
+.fnc_btn.reverses{
+    background: #d9480f;
+}
+.fnc_btn i{
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    margin-left: 5px;
+}
+.fnc_btn:hover{
+    color: #FFF;
+}
+.fnc_btn.reverses:before{
+    background: #212529;
+}
+.fnc_btn.wh:hover{
+    color: #d9480f;
+}
+.fnc_btn.wh:before{
+    background: #fff;
+}
+
+
+/*------------------------------------------------------------------------------
+/ 3. Gapping Settings
+------------------------------------------------------------------------------*/
+.noPadding{
+    padding: 0;
+}
+.noPaddingRight{
+    padding-right: 0;
+}
+
+
+/*------------------------------------------------------------------------------
+/ 4. Section Setup
+------------------------------------------------------------------------------*/
+.comon_section{
+    position: relative;
+    padding: 50px 0;
+}
+.sub_title{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #d9480f;
+    line-height: .8;
+    font-weight: 400;
+    margin: 0 0 7px;
+}
+.sub_title.lights{
+    color: #FFF;
+}
+.sub_title:before{
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    height: 4px;
+    border-top: 1px solid #d9480f;
+    border-bottom: 1px solid #d9480f;
+    top: -2.5px;
+    margin-right: 14px;
+}
+.sub_title.lights:before{
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+.sub_title:after{
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 10px;
+    height: 4px;
+    border-top: 1px solid #d9480f;
+    border-bottom: 1px solid #d9480f;
+    top: -2.5px;
+    margin-left: 14px;
+}
+.sub_title.lights:after{
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+.sub_title.no_bars:before, .sub_title.no_bars:after{
+    display: none;
+}
+.sec_title{
+    font-size: 38px;
+    line-height: 57px;
+    margin: 0;
+}
+.sec_title.lights{
+    color: #FFF;
+}

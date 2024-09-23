@@ -1,0 +1,703 @@
+/*
+Theme Name: investor_insight
+Theme URI: http://themewar.com/html/investor_insight/
+Author: ThemeWar
+Author URI: http://themewar.com/
+Description: Investor Insight.
+Version: 1.0
+License:
+License URI:
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+1. Responsive For Extra large Device 2
+2. Desktop Device
+3. Responsive For Tab Device
+4. Common For Mobile & Tab
+5. Responsive For Mobile
+*/
+
+/*------------------------------------------------------------------------------------
+/ 1. Responsive For Extra large Device 2
+/--------------------------------------------------------------------------------------*/
+@media (min-width: 1200px) and (max-width: 1600px){
+    .cta_images{
+        height: 100%;
+    }
+    .cta_images img{
+        height: 100%;
+        width: auto;
+        max-width: inherit;
+    }
+}
+
+/*------------------------------------------------------------------------------------
+/ 2. Desktop Device
+/--------------------------------------------------------------------------------------*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .ab_images{
+        margin-right: 0;
+    }
+    .ab_content{
+        padding-top: 0;
+    }
+    .sr01_dtl{
+        padding: 73px 15px 40px;
+    }
+    .service_02_slider.owl-carousel .owl-nav button.owl-prev,
+    .testimonial_slider_01.owl-carousel .owl-nav button.owl-prev, 
+    .service_01_slider.owl-carousel .owl-nav button.owl-prev{
+        left: -5px;
+    }
+    .service_02_slider.owl-carousel .owl-nav button.owl-next,
+    .testimonial_slider_01.owl-carousel .owl-nav button.owl-next, 
+    .service_01_slider.owl-carousel .owl-nav button.owl-next{
+        right: -5px;
+    }
+    .b01_det{
+        padding: 40px 25px 40px 25px;
+    }
+    .footer_01 .pdl95{
+        padding-left: 0;
+    }
+    .active_label{
+        left: 105px;
+        top: 20px;
+    }
+    .header_02 .menu_1 > ul > li > ul{
+        left: -20px;
+    }
+    .header_up_section_3 .col-lg-6,
+    .header_up_section .col-lg-6{
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .header_up_section_3 .col-lg-6.hide-mobile,
+    .header_up_section .col-lg-6.hide-mobile{
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .icon_box_01 h3 i{
+        margin-right: 12px;
+    }
+    .cta_content{
+        padding: 50px 15px;
+    }
+    .cta_images img{
+        height: 430px;
+    }
+    .header_03_wrap{
+        margin: 0;
+    }
+    .icon_box_02{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .process.has_bar h3:after{
+        width: 200px;
+        left: 125px;
+    }
+    .c03_det{
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+    .c03_det h2{
+        font-size: 20px;
+    }
+    .service_sidebar .widget{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .blog_sidebar{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .gallery_images a:nth-child(3), 
+    .gallery_images a:nth-child(6), 
+    .gallery_images a:nth-child(9), 
+    .gallery_images a:nth-child(12) {
+        margin-right: 2px;
+    }
+    .single_product_carouse .carousel-indicators li{
+        width: 119px;
+        height: 119px;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------
+/ 3. Responsive For Tab Device
+/--------------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+    .info_item{
+        padding-left: 40px;
+    }
+    .info_item h6.active{
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .bar_btns .req_btn{
+        padding: 0 15px;
+        font-size: 12px;
+    }
+    .bar_btns .req_btn i{
+        margin-left: 3px;
+        font-size: 16px;
+    }
+    .slider_01 .tp-bullet{
+        padding: 0 15px 14px 0px;
+        width: 155px;
+    }
+    .ab_images{
+        padding-right: 0;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .fact_01{
+        margin-bottom: 50px;
+    }
+    .fact_section{
+        padding-bottom: 20px;
+    }
+    .testimonial_slider_01.owl-carousel .owl-nav button.owl-prev, 
+    .service_01_slider.owl-carousel .owl-nav button.owl-prev{
+        left: -5px;
+    }
+    .testimonial_slider_01.owl-carousel .owl-nav button.owl-next, 
+    .service_01_slider.owl-carousel .owl-nav button.owl-next{
+        right: -5px;
+    }
+    .quote_form{
+        padding: 100px 50px 72px;
+    }
+    .b01_det {
+        padding: 40px 25px 40px 25px;
+    }
+    .blog_section .blog_01{
+        margin-bottom: 30px;
+    }
+    .footer_01{
+        padding-bottom: 60px;
+    }
+    .footer_01 .widget{
+        margin-bottom: 40px;
+    }
+    .footer_01 .pdl95{
+        padding-left: 15px;
+    }
+    .active_label{
+        left: 113px;
+    }
+    .dark_head.info_item{
+        margin-left: -20px;
+    }
+    .cta_content{
+        padding-right: 65px;
+    }
+}
+
+/*------------------------------------------------------------------------------------
+/ 4. Common For Mobile & Tab
+/--------------------------------------------------------------------------------------*/
+@media (max-width: 991px){
+    .menuButton{
+        display: block;
+        z-index: 2;
+        position: relative;
+        padding: 18px 0;
+    }
+    .header_01 .col-md-7{
+        position: static;
+    }
+    .header_01 .menu_1 {
+        position: static;
+        margin-top: 0;
+        z-index: 3;
+    }
+    .menu_1 > ul{
+        display: none;
+    }
+    .menu_1 > ul{
+        position: absolute;
+        left: 0;
+        top: 100%;
+        height: auto;
+        background: #212529;
+        width: 100vw;
+        z-index: 9;
+        padding: 15px;
+        border-bottom: 3px solid #d9480f;
+    }
+    .menu_1 > ul > li{
+        margin: 0;
+        padding: 15px 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, .1);
+    }
+    .menu_1 > ul > li:last-child{
+        border-bottom: none;
+    }
+    .menu_1 > ul > li > a:after, .menu_1 > ul > li > a:before{
+        display: none;
+    }
+    .menu_1 > ul > li > a{
+        color: #FFF;
+    }
+    .menu_1 > ul > li ul, .menu_1 > ul > li ul li ul{
+        position: relative;
+        width: 100%;
+        left: auto;
+        top: auto;
+        opacity: 1;
+        visibility: visible;
+        padding-bottom: 0;
+        border-bottom: none;
+        background: transparent;
+        
+        display: none;
+
+        transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        
+        transition: none;
+        -moz-transition: none;
+        -webkit-transition: none;
+    }
+    .menu_1 > ul > li ul li ul{
+        padding-top: 10px;
+    }
+    .submenu_toggler{
+        position: absolute;
+        right: 0;
+        top: 4px;
+        width: 32px;
+        height: 32px;
+        background: rgba(255, 255, 255, 1);
+        font-size: 20px;
+        line-height: 32px;
+        color: #d9480f;
+        text-align: center;
+        cursor: pointer;
+        z-index: 9;
+        padding: 2px 0;
+        
+        transition: all ease 300ms;
+        -moz-transition: all ease 300ms;
+        -webkit-transition: all ease 300ms;
+    }
+    .menu_1 > ul > li > ul > li .submenu_toggler{
+        right: -15px;
+    }
+    .submenu_toggler.active-span, .submenu_toggler:hover{
+        background: #d9480f;
+        color: #FFF;
+    }
+    .menu_1 > ul > li ul li.menu-item-has-children:after{
+        display: none;
+    }
+    .service_02_slider.owl-carousel .owl-nav button.owl-prev,
+    .testimonial_slider_01.owl-carousel .owl-nav button.owl-prev,
+    .service_01_slider.owl-carousel .owl-nav button.owl-prev{
+        left: -10px;
+    }
+    .service_02_slider.owl-carousel .owl-nav button.owl-next,
+    .testimonial_slider_01.owl-carousel .owl-nav button.owl-next,
+    .service_01_slider.owl-carousel .owl-nav button.owl-next{
+        right: -10px;
+    }
+    .pdl95 {
+        padding-left: 15px;
+    }
+    #backtotop{
+        right: 20px;
+        bottom: 20px !important;
+    }
+    .logo_01{
+        width: 50%;
+        z-index: 2;
+    }
+    .ab_images{
+        margin-right: 0;
+    }
+    .fact_01{
+        margin-bottom: 30px;
+    }
+    .sec_title{
+        font-size: 36px;
+        line-height: 52px;
+    }
+    .owl-carousel .service_01.animate_on_visible {
+        opacity: 1;
+        -webkit-perspective: 1000;
+        -webkit-backface-visibility: visible;
+        -moz-backface-visibility: visible;
+        -o-backface-visibility: visible;
+        -ms-backface-visibility: visible;
+        backface-visibility: visible;
+    }
+    .quote_form_2, .quote_form{
+        padding-left: 25px;
+        padding-right: 30px;
+    }
+    .blog_01{
+        margin-bottom: 30px;
+    }
+    .footer_01 .widget{
+        margin-bottom: 50px;
+    }
+    .header_01{
+        min-height: auto;
+    }
+    .header_01 .menuButton{
+        padding: 30px 0 0;
+    }
+    .header_02 .menu_1 > ul > li{
+        margin: 0;
+        padding: 15px 15px;
+    }
+    .menu_1{
+        position: static;
+    }
+    .team_01{
+        margin-bottom: 30px;
+    }
+    .access_btns_2 {
+        margin-top: -79px;
+    }
+    .access_btns_2.bar_btns .req_btn{
+        padding: 0 30px;
+    }
+    .header_02 .menuButton {
+        padding: 18px 0;
+        z-index: 2;
+    }
+    .header_03_wrap .col-lg-8,
+    .header_02 .col-lg-8{
+        position: static;
+    }
+    .icon_box_02{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+    .header_03_wrap{
+        margin: 0 -15px;
+    }
+    .hdr_03{
+        margin-top: -80px;
+    }
+    .header_03 .menu_1 > ul > li{
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    .process.has_bar h3:after{
+        width: 90%;
+        left: 98px;
+    }
+    .footer_01{
+        padding-bottom: 50px;
+    }
+    .icon_box_03{
+        margin: 0 0 30px;
+    }
+    .fnc_accordion .card-header a{
+        padding-right: 45px;
+    }
+    .maint_content h2,
+    .cs_content h2{
+        font-size: 45px;
+        line-height: 45px;
+        word-break: break-word;
+    }
+    .content_404 img{
+        margin-left: 0;
+    }
+    .folio_nav li{
+        display: inline-block;
+    }
+    .service_sidebar .widget{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .jt_content .sec_title{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .blog_sidebar{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .gallery_images a:nth-child(3), 
+    .gallery_images a:nth-child(6), 
+    .gallery_images a:nth-child(9), 
+    .gallery_images a:nth-child(12) {
+        margin-right: 2px;
+    }
+    .blog_sidebar{
+        margin-bottom: 50px;
+    }
+    .comment_list li .children{
+        margin-left: 40px;
+    }
+    .related_product_area .single_product_loop{
+        margin-bottom: 50px;
+    }
+    .single_product_carouse{
+        margin-bottom: 50px;
+    }
+
+}
+
+/*------------------------------------------------------------------------------------
+/ 5. Responsive For Mobile
+/--------------------------------------------------------------------------------------*/
+@media (max-width: 767px){
+
+    .productTabs.nav-tabs .nav-link:hover:after, .productTabs.nav-tabs .nav-link.active:after{
+        display: none;
+    }
+    .add_to_car_btn{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .single_product_carouse .carousel-indicators li{
+        width: 65px;
+        margin-right: 10px;
+        height: 75px;
+    }
+    .blog_sidebar.bs-right{
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+    .shop_page .text-right {
+        text-align: left !important;
+    }
+    .shop_page .pr_sorts {
+        margin-top: 20px;
+    }
+    .single-comment{
+        padding-left: 0;
+    }
+    .comment_list li .children{
+        margin-left: 20px;
+    }
+    .single-comment img{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .bp_tags{
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+    .post_author{
+        padding-left: 30px;
+    }
+    .post_author img{
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 0 0 20px;
+    }
+    .b01_meta{
+        display: block;
+    }
+    .b01_meta span.b01m_author{
+        margin-left: 0;
+    }
+    .b01_meta span.b01m_com{
+        margin-right: 18px;
+    }
+    .b01_meta span{
+        margin-bottom: 15px;
+    }
+    .cm_item h5{
+        font-size: 16px;
+    }
+    .case_gallery_sliders .carousel-indicators li{
+        padding: 0 5px;
+    }
+    .case_gallery_sliders .carousel-indicators{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .service_sidebar{
+        margin-bottom: 50px;
+    }
+    .folio_nav{
+        display: block;
+    }
+    .folio_nav li{
+        margin-bottom: 15px;
+    }
+    .pb_content h2{
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+    .slider_03 .tp-caption.tp-buttons{
+        display: none;
+    }
+    .slider_03 .tp-caption br{
+        display: none;
+    }
+    .header_03_wrap{
+        padding: 0 20px;
+    }
+    .hdr_03 .mini_cart{
+        right: -15px;
+    }
+    .hdr_03 .access_btns a.src_btn{
+        display: block;
+    }
+    .hdr_03 .access_btns:before,
+    .hdr_03 .office_locations{
+        display: none;
+    }
+    .process h3{
+        margin-bottom: 6px;
+    }
+    .process{
+        margin-bottom: 20px;
+    }
+    .fun_fact_section_2{
+        background-size: cover;
+    }
+    .process.has_bar h3:after{
+        display: none;
+    }
+    .header_03{
+        top: 77px;
+    }
+    .quote_form_2, .quote_form{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .quote_section_2 .quote_form_2{
+        margin-top: 150px;
+    }
+    .access_btns_2 .cart_btn .mini_cart {
+        right: -10px;
+    }
+    .cta_content {
+        padding: 50px 0 100px 0px;
+    }
+    .case_slider_02_nav{
+        padding-top: 0;
+        margin: -30px 0 30px;
+    }
+    .icon_box_01{
+        margin-bottom: 30px;
+    }
+    .ab_counter{
+        right: -10px;
+        bottom: 10px;
+    }
+    .access_btns_2 {
+        margin-top: -80px;
+    }
+    .req_btn{
+        display: none;
+    }
+    .hide-mobile{
+        display: none;
+    }
+    .logo_02{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .top_bar_2{
+        display: none;
+    }
+    .header_01 .menu_1 {
+        margin-top: -95px;
+    }
+    .slider_01 .tp-bullet .tp-arr-titleholder{
+        display: none;
+    }
+    .slider_01 .tp-bullets{
+        height: 4px !important;
+        top: 90% !important;
+    }
+    .slider_01 .tp-bullet{
+        height: 5px;
+        padding: 0;
+        top: 0 !important;
+    }
+    .slider_04 .tparrows.custom,
+    .slider_03 .tparrows.custom,
+    .slider_02 .tparrows.custom{
+        top: 80% !important;
+    }
+    .slider_01 .tp-bullet:nth-child(2){
+        top: 15px !important;
+    }
+    .slider_01 .tp-bullet:nth-child(3),
+    .slider_01 .tp-bullet:last-child{
+        top: 30px !important;
+    }
+    .active_label{
+        left: 105px;
+        top: 20px;
+    }
+    .cta_section .text-right {
+        margin-top: 30px;
+        text-align: left !important;
+    }
+    .b01_det{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .case_slider_01_nav, .case_slider_02_nav{
+        justify-content: flex-start;
+        padding-top: 10px;
+    }
+    .pricing_01.active {
+        margin-top: 30px;
+    }
+    .form_note:after{
+        right: -15px;
+    }
+    .ab_content {
+        padding-top: 40px;
+    }
+    .menuButton a{
+        margin-right: 10px;
+    }
+    .access_btns{
+        padding-left: 10px;
+    }
+    .logo_01 img{
+        height: 30px;
+    }
+    .top_bar{
+        display: none;
+    }
+    .access_btns a.src_btn{
+        display: none;
+    }
+    .header_01.col-md-7.col-lg-9{
+        float: right;
+        width: 100%;
+    }
+    .noPadding{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .noPaddingLeft{
+        padding-left: 15px;
+    }
+    .noPaddingRight {
+        padding-right: 15px;
+    }
+    .ab_content h2{
+        font-size: 36px;
+        line-height: 52px;
+    }
+    .list_ul li{
+        width: 100%;
+    }
+}

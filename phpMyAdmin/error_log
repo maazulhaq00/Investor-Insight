@@ -1,0 +1,25 @@
+[08-Aug-2023 11:53:37 America/New_York] PHP Warning:  require(/home/skylecef/public_html/phpMyAdmin/vendor/composer/../symfony/deprecation-contracts/function.php): failed to open stream: No such file or directory in /home/skylecef/public_html/phpMyAdmin/vendor/composer/autoload_real.php on line 78
+[08-Aug-2023 11:53:37 America/New_York] PHP Fatal error:  require(): Failed opening required '/home/skylecef/public_html/phpMyAdmin/vendor/composer/../symfony/deprecation-contracts/function.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/skylecef/public_html/phpMyAdmin/vendor/composer/autoload_real.php on line 78
+[08-Aug-2023 11:57:36 America/New_York] PHP Warning:  require_once(/home/skylecef/public_html/phpMyAdmin/vendor/paragonie/sodium_compat/lib/php72compat.php): failed to open stream: No such file or directory in /home/skylecef/public_html/phpMyAdmin/vendor/paragonie/sodium_compat/autoload.php on line 70
+[08-Aug-2023 11:57:36 America/New_York] PHP Fatal error:  require_once(): Failed opening required '/home/skylecef/public_html/phpMyAdmin/vendor/paragonie/sodium_compat/lib/php72compat.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/skylecef/public_html/phpMyAdmin/vendor/paragonie/sodium_compat/autoload.php on line 70
+[08-Aug-2023 12:22:18 America/New_York] PHP Warning:  include(/home/skylecef/public_html/phpMyAdmin/vendor/composer/../../libraries/classes/Http/Factory/ServerRequestFactory.php): failed to open stream: No such file or directory in /home/skylecef/public_html/phpMyAdmin/vendor/composer/ClassLoader.php on line 571
+[08-Aug-2023 12:22:18 America/New_York] PHP Warning:  include(): Failed opening '/home/skylecef/public_html/phpMyAdmin/vendor/composer/../../libraries/classes/Http/Factory/ServerRequestFactory.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/skylecef/public_html/phpMyAdmin/vendor/composer/ClassLoader.php on line 571
+[08-Aug-2023 12:22:18 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PhpMyAdmin\Http\Factory\ServerRequestFactory' not found in /home/skylecef/public_html/phpMyAdmin/libraries/classes/Common.php:84
+Stack trace:
+#0 /home/skylecef/public_html/phpMyAdmin/index.php(40): PhpMyAdmin\Common::run()
+#1 {main}
+  thrown in /home/skylecef/public_html/phpMyAdmin/libraries/classes/Common.php on line 84
+[08-Aug-2023 12:22:19 America/New_York] PHP Warning:  include(/home/skylecef/public_html/phpMyAdmin/vendor/composer/../../libraries/classes/Http/Factory/ServerRequestFactory.php): failed to open stream: No such file or directory in /home/skylecef/public_html/phpMyAdmin/vendor/composer/ClassLoader.php on line 571
+[08-Aug-2023 12:22:19 America/New_York] PHP Warning:  include(): Failed opening '/home/skylecef/public_html/phpMyAdmin/vendor/composer/../../libraries/classes/Http/Factory/ServerRequestFactory.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/skylecef/public_html/phpMyAdmin/vendor/composer/ClassLoader.php on line 571
+[08-Aug-2023 12:22:19 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PhpMyAdmin\Http\Factory\ServerRequestFactory' not found in /home/skylecef/public_html/phpMyAdmin/libraries/classes/Common.php:84
+Stack trace:
+#0 /home/skylecef/public_html/phpMyAdmin/index.php(40): PhpMyAdmin\Common::run()
+#1 {main}
+  thrown in /home/skylecef/public_html/phpMyAdmin/libraries/classes/Common.php on line 84
+[08-Aug-2023 12:22:39 America/New_York] PHP Warning:  include(/home/skylecef/public_html/phpMyAdmin/vendor/composer/../../libraries/classes/Http/Factory/ServerRequestFactory.php): failed to open stream: No such file or directory in /home/skylecef/public_html/phpMyAdmin/vendor/composer/ClassLoader.php on line 571
+[08-Aug-2023 12:22:39 America/New_York] PHP Warning:  include(): Failed opening '/home/skylecef/public_html/phpMyAdmin/vendor/composer/../../libraries/classes/Http/Factory/ServerRequestFactory.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/skylecef/public_html/phpMyAdmin/vendor/composer/ClassLoader.php on line 571
+[08-Aug-2023 12:22:39 America/New_York] PHP Fatal error:  Uncaught Error: Class 'PhpMyAdmin\Http\Factory\ServerRequestFactory' not found in /home/skylecef/public_html/phpMyAdmin/libraries/classes/Common.php:84
+Stack trace:
+#0 /home/skylecef/public_html/phpMyAdmin/index.php(40): PhpMyAdmin\Common::run()
+#1 {main}
+  thrown in /home/skylecef/public_html/phpMyAdmin/libraries/classes/Common.php on line 84

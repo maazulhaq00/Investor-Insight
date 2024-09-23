@@ -1,0 +1,291 @@
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 2
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 3
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 4
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 6
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 7
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 9
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 10
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 11
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 13
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 14
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 15
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 16
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 19
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 56
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 68
+[19-Oct-2023 19:05:13 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 71
+[19-Oct-2023 19:05:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function service_list() in /home/skylecef/public_html/template_parts/header.php:75
+Stack trace:
+#0 /home/skylecef/public_html/our_services.php(11): include()
+#1 {main}
+  thrown in /home/skylecef/public_html/template_parts/header.php on line 75
+[03-Nov-2023 03:07:22 America/New_York] PHP Notice:  Undefined index: users_id in /home/skylecef/public_html/includes/application_top.php on line 5
+[03-Nov-2023 03:10:40 America/New_York] PHP Notice:  Undefined index: page_function in /home/skylecef/public_html/dynamic5.php on line 3
+[03-Nov-2023 03:10:40 America/New_York] PHP Notice:  Undefined index: page_function in /home/skylecef/public_html/dynamic5.php on line 4
+[03-Nov-2023 03:10:40 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/skylecef/public_html/dynamic5.php(5) : eval()'d code on line 1
+[03-Nov-2023 03:12:49 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/skylecef/public_html/includes/function.php on line 4
+[03-Nov-2023 03:12:49 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/skylecef/public_html/includes/function.php on line 5
+[03-Nov-2023 03:12:49 America/New_York] PHP Notice:  Undefined index: users_id in /home/skylecef/public_html/includes/function2.php on line 1316
+[03-Nov-2023 03:12:49 America/New_York] PHP Notice:  Undefined index: action in /home/skylecef/public_html/trafficbuilder/login.php on line 14
+[03-Nov-2023 03:12:49 America/New_York] PHP Notice:  Undefined index: permission_dynamic_cmm in /home/skylecef/public_html/trafficbuilder/login.php on line 19
+[03-Nov-2023 03:12:49 America/New_York] PHP Notice:  Undefined index: error_message in /home/skylecef/public_html/trafficbuilder/login.php on line 36
+[03-Nov-2023 04:17:03 America/New_York] PHP Notice:  Undefined index: client_id in /home/skylecef/public_html/includes/class_users.php(315) : eval()'d code on line 1
+[03-Nov-2023 04:17:03 America/New_York] PHP Notice:  Undefined index: client_first_name in /home/skylecef/public_html/includes/class_users.php on line 318
+[03-Nov-2023 04:17:03 America/New_York] PHP Notice:  Undefined index: client_last_name in /home/skylecef/public_html/includes/class_users.php on line 325
+[03-Nov-2023 04:17:03 America/New_York] PHP Notice:  Undefined index: client_full_name in /home/skylecef/public_html/includes/class_users.php on line 328
+[03-Nov-2023 04:17:03 America/New_York] PHP Notice:  Undefined index: client_name in /home/skylecef/public_html/includes/class_users.php on line 332
+[03-Nov-2023 04:17:03 America/New_York] PHP Notice:  Undefined index: center_id in /home/skylecef/public_html/includes/class_users.php on line 344
+[03-Nov-2023 04:17:03 America/New_York] PHP Notice:  Undefined index: profile_image in /home/skylecef/public_html/includes/class_users.php on line 345
+[03-Nov-2023 04:17:03 America/New_York] PHP Notice:  Undefined index: GMT in /home/skylecef/public_html/includes/function3.php on line 900
+[03-Nov-2023 04:17:03 America/New_York] PHP Notice:  Undefined index: redirect_url in /home/skylecef/public_html/includes/class_users.php on line 358
+[03-Nov-2023 04:17:03 America/New_York] PHP Notice:  Undefined index: action in /home/skylecef/public_html/includes/class/my_account.php on line 44
+[03-Nov-2023 04:17:36 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_tuple() in /home/skylecef/public_html/pages.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/skylecef/public_html/pages.php on line 3
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 2
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 3
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 4
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 6
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 7
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 9
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 10
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 11
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 13
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 14
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 15
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 16
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 19
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 42
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 56
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 57
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 68
+[12-Nov-2023 01:33:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 71
+[12-Nov-2023 01:33:03 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function service_list() in /home/skylecef/public_html/template_parts/header.php:75
+Stack trace:
+#0 /home/skylecef/public_html/our_services.php(11): include()
+#1 {main}
+  thrown in /home/skylecef/public_html/template_parts/header.php on line 75
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 2
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 3
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 4
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 6
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 7
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 9
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 10
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 11
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 13
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 14
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 15
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 16
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 19
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 42
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 56
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 57
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 68
+[15-Nov-2023 16:22:47 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 71
+[15-Nov-2023 16:22:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function service_list() in /home/skylecef/public_html/template_parts/header.php:75
+Stack trace:
+#0 /home/skylecef/public_html/our_services.php(11): include()
+#1 {main}
+  thrown in /home/skylecef/public_html/template_parts/header.php on line 75
+[25-Nov-2023 19:57:01 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/about_us.php on line 27
+[10-Dec-2023 00:51:39 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/about_us.php on line 27
+[13-Dec-2023 02:29:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function phpmyadmin() in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code:1
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111): eval()
+#1 {main}
+  thrown in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code on line 1
+[13-Dec-2023 02:29:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/skylecef/public_html/includes/class/backup.php:15
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111) : eval()'d code(1): backup()
+#1 /home/skylecef/public_html/dynamic4.php(111): eval()
+#2 {main}
+  thrown in /home/skylecef/public_html/includes/class/backup.php on line 15
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 2
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 3
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 4
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 6
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 7
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 9
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 10
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 11
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 13
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 14
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 15
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 16
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 17
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 42
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 56
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 57
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 68
+[13-Dec-2023 20:57:03 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 71
+[13-Dec-2023 20:57:03 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function service_list() in /home/skylecef/public_html/template_parts/header.php:75
+Stack trace:
+#0 /home/skylecef/public_html/our_services.php(11): include()
+#1 {main}
+  thrown in /home/skylecef/public_html/template_parts/header.php on line 75
+[14-Dec-2023 06:02:56 America/New_York] PHP Fatal error:  Uncaught Error: Class 'client' not found in /home/skylecef/public_html/includes/class/update_data.php:4
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111) : eval()'d code(1): update_data()
+#1 /home/skylecef/public_html/dynamic4.php(111): eval()
+#2 {main}
+  thrown in /home/skylecef/public_html/includes/class/update_data.php on line 4
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 2
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 3
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 4
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 6
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 7
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 9
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 10
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 11
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 13
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 14
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 15
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 16
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 17
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 42
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 56
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 57
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 68
+[14-Jan-2024 15:03:05 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 71
+[14-Jan-2024 15:03:05 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function service_list() in /home/skylecef/public_html/template_parts/header.php:75
+Stack trace:
+#0 /home/skylecef/public_html/our_services.php(11): include()
+#1 {main}
+  thrown in /home/skylecef/public_html/template_parts/header.php on line 75
+[18-Jan-2024 04:35:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function phpmyadmin() in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code:1
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111): eval()
+#1 {main}
+  thrown in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code on line 1
+[19-Jan-2024 04:22:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function phpmyadmin() in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code:1
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111): eval()
+#1 {main}
+  thrown in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code on line 1
+[19-Jan-2024 04:22:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function phpmyadmin() in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code:1
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111): eval()
+#1 {main}
+  thrown in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code on line 1
+[19-Jan-2024 04:22:27 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/skylecef/public_html/includes/class/backup.php:15
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111) : eval()'d code(1): backup()
+#1 /home/skylecef/public_html/dynamic4.php(111): eval()
+#2 {main}
+  thrown in /home/skylecef/public_html/includes/class/backup.php on line 15
+[19-Jan-2024 04:22:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/skylecef/public_html/includes/class/backup.php:15
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111) : eval()'d code(1): backup()
+#1 /home/skylecef/public_html/dynamic4.php(111): eval()
+#2 {main}
+  thrown in /home/skylecef/public_html/includes/class/backup.php on line 15
+[20-Jan-2024 00:55:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function phpmyadmin() in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code:1
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111): eval()
+#1 {main}
+  thrown in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code on line 1
+[26-Jan-2024 01:07:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function phpmyadmin() in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code:1
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111): eval()
+#1 {main}
+  thrown in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code on line 1
+[26-Jan-2024 01:07:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function phpmyadmin() in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code:1
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111): eval()
+#1 {main}
+  thrown in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code on line 1
+[26-Jan-2024 01:07:55 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/skylecef/public_html/includes/class/backup.php:15
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111) : eval()'d code(1): backup()
+#1 /home/skylecef/public_html/dynamic4.php(111): eval()
+#2 {main}
+  thrown in /home/skylecef/public_html/includes/class/backup.php on line 15
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 2
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 3
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 4
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 6
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 7
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 9
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 10
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 11
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 13
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 14
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 15
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 16
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 17
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 42
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 56
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 57
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 68
+[02-Feb-2024 09:34:49 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 71
+[02-Feb-2024 09:34:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function service_list() in /home/skylecef/public_html/template_parts/header.php:75
+Stack trace:
+#0 /home/skylecef/public_html/our_services.php(11): include()
+#1 {main}
+  thrown in /home/skylecef/public_html/template_parts/header.php on line 75
+[02-Feb-2024 09:37:54 America/New_York] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/about_us.php on line 27
+[09-Feb-2024 00:28:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function phpmyadmin() in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code:1
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111): eval()
+#1 {main}
+  thrown in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code on line 1
+[09-Feb-2024 00:28:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/skylecef/public_html/includes/class/backup.php:15
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111) : eval()'d code(1): backup()
+#1 /home/skylecef/public_html/dynamic4.php(111): eval()
+#2 {main}
+  thrown in /home/skylecef/public_html/includes/class/backup.php on line 15
+[18-Mar-2024 07:55:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpmyadmin() in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code:1
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111): eval()
+#1 {main}
+  thrown in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code on line 1
+[18-Mar-2024 07:56:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/skylecef/public_html/includes/class/backup.php:15
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111) : eval()'d code(1): backup()
+#1 /home/skylecef/public_html/dynamic4.php(111): eval()
+#2 {main}
+  thrown in /home/skylecef/public_html/includes/class/backup.php on line 15
+[18-Mar-2024 07:56:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/skylecef/public_html/includes/class/backup.php:15
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111) : eval()'d code(1): backup()
+#1 /home/skylecef/public_html/dynamic4.php(111): eval()
+#2 {main}
+  thrown in /home/skylecef/public_html/includes/class/backup.php on line 15
+[22-Apr-2024 07:00:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpmyadmin() in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code:1
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111): eval()
+#1 {main}
+  thrown in /home/skylecef/public_html/dynamic4.php(111) : eval()'d code on line 1
+[22-Apr-2024 07:00:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/skylecef/public_html/includes/class/backup.php:15
+Stack trace:
+#0 /home/skylecef/public_html/dynamic4.php(111) : eval()'d code(1): backup()
+#1 /home/skylecef/public_html/dynamic4.php(111): eval()
+#2 {main}
+  thrown in /home/skylecef/public_html/includes/class/backup.php on line 15
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 2
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 3
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 4
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 6
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 7
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 9
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 10
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 11
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 13
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 14
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 15
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 16
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/head.php on line 17
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 42
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 56
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 57
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 68
+[22-Apr-2024 21:45:04 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/template_parts/header.php on line 71
+[22-Apr-2024 21:45:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function service_list() in /home/skylecef/public_html/template_parts/header.php:75
+Stack trace:
+#0 /home/skylecef/public_html/our_services.php(11): include()
+#1 {main}
+  thrown in /home/skylecef/public_html/template_parts/header.php on line 75
+[22-Apr-2024 21:45:52 UTC] PHP Warning:  Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP) in /home/skylecef/public_html/about_us.php on line 27

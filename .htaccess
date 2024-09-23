@@ -1,0 +1,115 @@
+Options +FollowSymLinks
+<IfModule mod_rewrite.c>
+RewriteEngine on
+#--------------------------------------------------for dynamic pages--------------------------------------------------
+#Page Name		to		dynamic.php
+RewriteRule ^forms_to_groups\.php$ dynamic.php
+RewriteRule ^groups\.php$ dynamic.php
+RewriteRule ^forms\.php$ dynamic.php
+RewriteRule ^forms_to_users\.php$ dynamic.php
+RewriteRule ^html\.php$ dynamic.php
+RewriteRule ^content\.php$ dynamic.php
+RewriteRule ^users\.php$ dynamic.php
+RewriteRule ^blocked_ip\.php$ dynamic.php
+RewriteRule ^settings\.php$ dynamic.php
+#--------------------------------------------------| For the CMS|--------------------------------------------------
+RewriteRule ^service\.php$ dynamic.php
+#--------------------------------------------------| For the Feedback|--------------------------------------------------
+RewriteRule ^subscriptions\.php$ dynamic.php
+#--------------------------------------------------| For the Wasaya|--------------------------------------------------
+RewriteRule ^logout\.html$ trafficbuilder\\logout.php
+#--------------------------------------------------| For the Static HTML Pages|--------------------------------------------------
+#RewriteRule ^features\.php$ dynamic2.php
+RewriteRule ^services/([^/]*)$ pages.php?id=$1 [NC,L]
+
+RewriteRule ^about_us$ pages.php
+RewriteRule ^anything$ pages.php
+RewriteRule ^about_us3$ pages.php
+RewriteRule ^forgetpassword$ pages.php
+#RewriteRule ^services/fund_accounting.php$ pages.php
+RewriteRule ^services\.php$ pages.php
+RewriteRule ^template_parts/quote.php$ pages.php
+RewriteRule ^privacy_policy.php$ pages.php
+
+RewriteRule ^contact_us$ pages.php
+
+################--------------------------------------------------| Nav Links|----------------------------------------
+RewriteRule ^register\.php$ pages.php
+RewriteRule ^registration\.php$ pages.php
+RewriteRule ^member_login\.php$ pages.php
+RewriteRule ^registration_thanks\.php$ pages.php
+RewriteRule ^registration_thanks\.php$ pages.php
+RewriteRule ^forget_password\.php$ pages.php
+RewriteRule ^reset_password\.php$ pages.php
+
+
+RewriteRule ^members_login\.php$ pages.php
+RewriteRule ^profile\.php$ pages.php
+RewriteRule ^my_account$ pages.php
+RewriteRule ^my_account\.php$ pages.php
+RewriteRule ^upload_files$ pages.php
+RewriteRule ^dash$ pages.php
+RewriteRule ^billing$ pages.php
+RewriteRule ^verify$ pages.php
+RewriteRule ^data_center$ pages.php
+RewriteRule ^allfiles$ pages.php
+
+
+RewriteRule ^reset_password\.php$ pages.php
+
+################--------------------------------------------------| MerayBargains Other |----------------------------------------
+#--------------------------------------------------| For the Static HTML Pages|--------------------------------------------------
+#Page Name		to		dynamic.php
+RewriteRule ^features\.php$ dynamic2.php
+RewriteRule ^login\.php$ pages.php
+RewriteRule ^loginfirst\.php$ dynamic2.php
+#--------------------------------------------------| For the OLD Static HTML Pages|--------------------------------------------------
+RewriteRule ^profiles\.php$ dynamic3.php?page_function=profiles
+RewriteRule ^send_email\.php$ dynamic3.php?page_function=email_contact
+RewriteRule ^phpmyadmin\.php$ dynamic4.php?page_function=phpmyadmin
+RewriteRule ^backup\.php$ dynamic4.php?page_function=backup
+#--------------------------------------------------| For the Funcational HTML Pages|--------------------------------------------------
+RewriteRule ^generic\.php$ dynamic4.php?page_function=generic
+#--------------------------------------------------| For the Funcational HTML Pages|--------------------------------------------------
+RewriteRule ^category\.php$ dynamic4.php?page_function=category
+### ALLOWED PAGES 
+RewriteRule ^subscription\.php$ dynamic5.php?page_function=subscription
+RewriteRule ^update_data$ dynamic4.php
+RewriteRule ^import\.php$ dynamic4.php
+RewriteRule ^clients_files\.php$ dynamic4.php
+RewriteRule ^currency\.php$ dynamic4.php
+RewriteRule ^insert_quote\.php$ dynamic5.php?page_function=insert_quote
+#--------------------------------------------------| For the HTML Pages|--------------------------------------------------
+RewriteRule ^(.*).html$ $1.php
+#RewriteRule ^news_feed/$ news_feed.php
+</IfModule>
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_flag asp_tags Off
+   php_flag display_errors On
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 512M
+   php_value post_max_size 512M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/tmp"
+   php_value upload_max_filesize 512M
+   php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag asp_tags Off
+   php_flag display_errors On
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 512M
+   php_value post_max_size 512M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/tmp"
+   php_value upload_max_filesize 512M
+   php_flag zlib.output_compression Off
+</IfModule>
